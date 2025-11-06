@@ -1,0 +1,90 @@
+.bg-custom{
+	background-color: #007bff;
+	
+}
+
+
+/* ===== Custom Navbar Style ===== */
+
+
+/* Navbar brand */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ffffff !important;
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+  position: relative;
+  color: #ffffff !important;
+  transition: color 0.25s ease;
+  padding-bottom: 6px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  text-transform: capitalize;
+}
+
+/* Underline effect (initially hidden) */
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ffffff;
+  transition: width 0.3s ease;
+  opacity: 0.9;
+}
+
+/* Hover: underline slides in */
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link:focus::after {
+  width: 100%;
+}
+
+/* Hover: brighten text color */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #f8f9fa !important;
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.6);
+}
+
+/* Make sure active item does NOT block hover underline */
+.navbar-nav .nav-item.active .nav-link::after,
+.navbar-nav .nav-link.active::after {
+  width: 0; /* no permanent underline */
+}
+
+/* Ensure even active links can animate underline on hover */
+.navbar-nav .nav-item.active .nav-link:hover::after,
+.navbar-nav .nav-link.active:hover::after {
+  width: 100%;
+}
+
+/* Buttons on right side */
+.btn-light {
+  color: #343a40;
+  font-weight: 500;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+/* Button hover */
+.btn-light:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transform: scale(1.05);
+}
+
+/* Improve text clarity (fix blur) */
+.navbar, .navbar * {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Optional: remove default navbar shadow */
+.navbar-custom {
+  box-shadow: none;
+}

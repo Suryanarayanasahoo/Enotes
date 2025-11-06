@@ -16,7 +16,10 @@ Designed with a **stylish UI**, secure authentication, and a smooth user workflo
 ## 🖼️ **Screenshots**
 | Login Page | Dashboard | Notes Page |
 |-----------|-----------|------------|
-| *(Add screenshot here)* | *(Add screenshot here)* | *(Add screenshot here)* |
+| <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/e9ea76d7-fe48-4811-a436-79918d4ea1c3" />
+ | <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/8c015a8a-c517-46f1-8bb1-e3dc44f9ad8a" />
+| <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/612cf9b0-32dc-4002-876b-93b5bbd7bad3" />
+|
 
 ---
 
